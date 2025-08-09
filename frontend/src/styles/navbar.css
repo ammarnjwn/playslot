@@ -1,0 +1,55 @@
+a{
+  color: black;
+}
+
+.navbar{
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.container-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container-nav > ul {
+  display: flex;
+  gap: 15px;
+  padding: 0 15px;
+}
+
+.container-nav > ul > li {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.container-nav > ul > li:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.container-nav > .btn-container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-nav > .btn-container > a {
+  font-size: 15px;
+}
+
+.container-nav > .btn-container > .login-btn {
+  padding: 15px 20px;
+  background-color: #073B66;
+  color: white;
+}
