@@ -1,0 +1,40 @@
+.full-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.details-cont {
+  width: 60%;
+  position: relative;
+}
+.img-signup {
+  width: 40%;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+              url('../assets/basketball-court.jpg') center;
+  background-size: cover;
+}
+.signup-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-signup{
+  width: 150px;
+  height: 150px;
+}
+.signup-input {
+  width: 250px;
+}
+.signup-input > form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 15px;
+}
+.login-link > h6{
+  font-weight: 300;
+}
